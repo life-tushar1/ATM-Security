@@ -36,8 +36,7 @@ while True:
     else:
 	       if(fc==0):
                 print "too many people around..your access is denied "
-
-		        time.sleep(3)
+                time.sleep(3)
            fc+=1
     if(vib.read()==0):
 	       fv=0
@@ -45,14 +44,12 @@ while True:
     else:
 	       if(fv==0):
                 print "dont fiddle with the machine....your access is denied"
-
-		        time.sleep(5)
+                time.sleep(5)
             fv+=1
     if(fv==fc==fd==0):
 	       if(ag==0):
 		             os.system('clear')
-
-		             print "access granted"
+                    print "access granted"
 	       ag+=1
 	       ad=0
     else:
